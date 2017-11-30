@@ -9,16 +9,16 @@ s = 1000;
 x = 25;
 y = 15; 
 
-let ploshad = Math.sqrt(s - x * y);
+let ploshad = s % (x * y);
 
-console.log("не занято " + ploshad + "м2");
+console.log("не занято " + ploshad + " м2");
 
 s_1 = 15;
 s_2 = 600;
 
-s_3 = 15 * 100 - 100;
+s_3 = 15 * 100 - 600;
 
-console.log("площадь овального кольца равна " + s_3);
+console.log("площадь овального кольца равна " + s_3 + " см2");
 
 x = 346
 y = 100
