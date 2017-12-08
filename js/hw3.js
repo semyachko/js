@@ -5,14 +5,14 @@ function checkType(a, b) {
         return false; 
     } else return true;
 }
-// Функция проверки операторы 
+
 function checkTypeOperator(operator) {
     if (typeof operator === "string") {
         console.log("true");
         return true; 
     } else return false;
 }
-//Функции операторов
+
 function Summ(a, b) {
     if (checkType(a, b)) {
     console.log(a + b);
